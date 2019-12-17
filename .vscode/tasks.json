@@ -1,0 +1,17 @@
+{
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "windows": {
+                "command": "${cwd}\\compil.bat"
+            },
+            "problemMatcher": []
+        }
+    ]
+    
+}
